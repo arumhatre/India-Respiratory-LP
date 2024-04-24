@@ -98,7 +98,7 @@ header {
 
 .form_head_text {
     font-size: 21px;
-    margin-top: 20px;
+    margin-top: 50px;
     line-height: normal;
     font-weight: 400;
     color: #212121;
@@ -266,6 +266,8 @@ header {
 }
 
 @media (max-width: 550px) {
+
+
 
 .form_head_text{
   margin-top: 0;
@@ -610,7 +612,7 @@ del {
 
   .banner-sec-bg{
    margin-top: 0px;
-   padding-top: 30px;
+   padding-top: 0px;
    padding-bottom: 30px;
    background: url(../images/banner-bg-mob.webp) bottom center no-repeat;
    background-size: cover;
@@ -624,7 +626,7 @@ del {
 
   .banner-content-cls-box{
     width: 100%;
-    padding: 15px;
+    padding: 30px;
   }
 
   .banner-main-new-heading{
