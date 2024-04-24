@@ -675,6 +675,7 @@ del {
 .deksection-infographics{
     display: block;
     height: 635px;
+    clip-path: inset(0px 0px 20px 0px);
 }
 
 .mobsection-infographics{
