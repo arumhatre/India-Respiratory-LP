@@ -35,6 +35,8 @@ header {
     align-items: center;
 }
 
+
+
 .main-all-heading {
     font-size: 30px;
     font-weight: 400;
@@ -55,6 +57,27 @@ header {
     z-index: 1000 !important;
 }
 
+
+
+@media (max-width: 600px){
+  .main-all-heading {
+    font-size: 26px;
+    font-weight: 400;
+    color: #212121;
+}
+
+
+.position_sticky {
+    position: relative;
+    top: 0;
+    z-index: 1000 !important;
+}
+
+
+}
+
+
+
 .contactFormHolder {
     position: fixed;
     right: 50px;
@@ -63,6 +86,7 @@ header {
     z-index: 9999;
 }
 
+
 .contactForm {
     min-height: 100px;
 /*    background-color: #ffffff;*/
@@ -70,6 +94,14 @@ header {
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     border-radius: 30px;
     padding: 30px 15px;
+}
+
+.form_head_text {
+    font-size: 21px;
+    margin-top: 20px;
+    line-height: normal;
+    font-weight: 400;
+    color: #212121;
 }
 
 .formLogo {
@@ -235,9 +267,10 @@ header {
 
 @media (max-width: 550px) {
 
-/*  .uk-banner-vitiligo {
-     background: linear-gradient(181deg, #f2c292 0%, #f2c292 35%, #ffdab1 100%);
-}*/
+.form_head_text{
+  margin-top: 0;
+}
+    
 
     .headerno-cls {
         font-size: 25px;
@@ -258,16 +291,6 @@ header {
 }
 
 @media only screen and (max-width: 480px) {
-    header {
-        background: #ffb765;
-        min-height: 65px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
 
     .contactForm {
         padding: 20px !important;
@@ -531,6 +554,8 @@ del {
 
 
 .book_btn {
+    width: 100%;
+    text-transform: uppercase;
     background: #e8933e !important;
     color: #fff;
     padding: 5px 25px;
@@ -587,6 +612,8 @@ del {
    margin-top: 0px;
    padding-top: 30px;
    padding-bottom: 30px;
+   background: url(../images/banner-bg-mob.webp) bottom center no-repeat;
+   background-size: cover;
  }
   
   .banner-img-cls-box{
@@ -901,6 +928,7 @@ del {
 }
 
 .mobsection-infographics{
+    padding-top: 50px;
     display: block;
 }
 
@@ -1153,7 +1181,7 @@ hr.why-hr-line {
 }
 
 .our-treatment-heading{
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 400;
   color: #212121;
 }
@@ -1175,6 +1203,14 @@ hr.why-hr-line {
     color: #212121;
     font-weight: 500;
     line-height: 20px;
+}
+
+@media screen and (max-width: 600px){
+   .our-treatment-heading{
+    font-size: 18px;
+    font-weight: 400;
+    color: #212121;
+  }
 }
 
 /*=========================================================*/
